@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Easy-PC")(type "KiCad")(uri "${KIPRJMOD}/EM008LXQADG13IS1T/Easy-PC.pretty")(options "")(descr ""))
+  (lib (name "SAMD51")(type "KiCad")(uri "/home/mcapoor/Documents/Github/BSE/SAMD51 Footprint/SAMD51/footprints.pretty")(options "")(descr ""))
+  (lib (name "Adafruit Grand Central M4 Express rev B")(type "KiCad")(uri "/home/mcapoor/Documents/Github/BSE/Adafruit-Grand-Central-PCB/assets/Adafruit Grand Central M4 Express rev B/Adafruit Grand Central M4 Express rev B.pretty")(options "")(descr ""))
+  (lib (name "BSE")(type "KiCad")(uri "/home/mcapoor/Documents/Github/BSE.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/SAMD51/SAMD51.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "MRAM")(type "KiCad")(uri "${KIPRJMOD}/EM008LXQADG13IS1T/MRAM.pretty")(options "")(descr ""))
+  (lib (name "SAMD51TQFP")(type "KiCad")(uri "${KIPRJMOD}/SAMD51TQFP.pretty")(options "")(descr ""))
+  (lib (name "mic5350")(type "KiCad")(uri "${KIPRJMOD}/MIC5350-SGYMT-TR/mic5350.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC5350-SGYMT-TR
+D LDO Voltage Regulators Dual 500mA/300mA LDO
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579980
+$ENDCMP
+#
+#End Doc Library

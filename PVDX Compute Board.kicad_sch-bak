@@ -1,0 +1,158 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "cc5055d2-349f-4e91-a151-9a2f788b119f")
+	(paper "A4")
+	(lib_symbols)
+	(text "1"
+		(exclude_from_sim no)
+		(at 269.494 193.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1025e44f-bf8c-406c-8339-63cc3ef0022b")
+	)
+	(text "TODO:\n1. DETERMINE PHOTODIODE RESISTANCE\n2. SIMPLIFY POWER SWITCHING (REQUIRES DETERMINING 5V AND 1.8V INPUTS?)\n3. ADD SBAND"
+		(exclude_from_sim no)
+		(at 27.686 75.438 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+			)
+			(justify left)
+		)
+		(uuid "4bdce111-de8e-4662-8ff1-475ea457d369")
+	)
+	(text "QUESTIONS:\n1. GENERAL DESIGN REVIEW\n2. SIMPLIFY POWER SWITCHING\n3. MRAM PULLUP RESISTORS\n4. HOW TO CHOOSE FOOTPRINTS\n5. ERC POWER FLAG\n6. LINEAR REGULATOR? WHERE TO PUT 1.8V?"
+		(exclude_from_sim no)
+		(at 27.686 115.062 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+			)
+			(justify left)
+		)
+		(uuid "84b8ebea-e745-45b2-a0b1-a23734dc71c2")
+	)
+	(text "Milan Capoor"
+		(exclude_from_sim no)
+		(at 276.86 189.484 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "862a4bca-86e8-47bf-a657-f8574b05edc7")
+	)
+	(text "PVDX COMPUTE BOARD\n"
+		(exclude_from_sim no)
+		(at 197.866 190.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6791b24-dcf1-49f2-9f31-5edc466142c2")
+	)
+	(sheet
+		(at 44.45 34.29)
+		(size 34.29 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "539aec53-5447-4510-8feb-4ff7e50b33e1")
+		(property "Sheetname" "Peripherals"
+			(at 44.45 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 44.45 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PVDX Compute Board"
+				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 34.29)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea0f2518-2951-420b-9275-c672d5183aa9")
+		(property "Sheetname" "SAMD51 Assignments"
+			(at 85.09 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SAMD51_pinout.kicad_sch"
+			(at 85.09 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 85.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PVDX Compute Board"
+				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
