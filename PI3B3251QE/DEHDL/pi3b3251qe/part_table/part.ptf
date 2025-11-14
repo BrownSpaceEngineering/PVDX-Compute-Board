@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PI3B3251QE'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "PI3B3251QE" (!) = "", "SOP65P640X120-16N", "Small Outline Packages", "729-PI3B3251QE", "https://www.mouser.com/Search/Refine.aspx?Keyword=729-PI3B3251QE", "Encoders, Decoders, Multiplexers & Demultiplexers 3.3V 8:1 Demux Mux Bus Switch", "https://componentsearchengine.com/Datasheets/1/PI3B3251QE.pdf", "1.2 mm"
+END_PART
+
+END.

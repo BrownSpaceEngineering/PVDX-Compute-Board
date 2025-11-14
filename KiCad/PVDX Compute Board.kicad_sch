@@ -15,17 +15,6 @@
 		)
 		(uuid "1025e44f-bf8c-406c-8339-63cc3ef0022b")
 	)
-	(text "TODO:\n1. DETERMINE PHOTODIODE RESISTANCE\n2. SIMPLIFY POWER SWITCHING (REQUIRES DETERMINING 5V AND 1V8 INPUTS?)\n3. ADD SBAND"
-		(exclude_from_sim no)
-		(at 69.85 77.978 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-			)
-			(justify left)
-		)
-		(uuid "4bdce111-de8e-4662-8ff1-475ea457d369")
-	)
 	(text "Milan Capoor"
 		(exclude_from_sim no)
 		(at 276.86 189.484 0)
@@ -84,6 +73,48 @@
 			(project "PVDX Compute Board"
 				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 34.29)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca4e0780-1d0b-4d38-b526-cbf20791aa72")
+		(property "Sheetname" "Photodiodes"
+			(at 127 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Photodiodes.kicad_sch"
+			(at 127 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PVDX Compute Board"
+				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f"
+					(page "4")
 				)
 			)
 		)

@@ -8,4 +8,5 @@
   (lib (name "MRAM")(type "KiCad")(uri "${KIPRJMOD}/EM008LXQADG13IS1T/MRAM.pretty")(options "")(descr ""))
   (lib (name "SAMD51TQFP")(type "KiCad")(uri "${KIPRJMOD}/SAMD51TQFP.pretty")(options "")(descr ""))
   (lib (name "mic5350")(type "KiCad")(uri "${KIPRJMOD}/MIC5350-SGYMT-TR/mic5350.pretty")(options "")(descr ""))
+  (lib (name "PI3B3251QE")(type "KiCad")(uri "${KIPRJMOD}/PI3B3251QE/KiCad/PI3B3251QE.pretty")(options "")(descr ""))
 )

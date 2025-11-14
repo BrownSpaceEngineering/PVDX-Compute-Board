@@ -7,4 +7,5 @@
   (lib (name "MRAM")(type "KiCad")(uri "${KIPRJMOD}/MRAM.kicad_sym")(options "")(descr ""))
   (lib (name "Adafruit Grand Central M4 Express rev B-eagle-import")(type "KiCad")(uri "/home/mcapoor/Documents/Github/BSE/Adafruit-Grand-Central-PCB/assets/Adafruit Grand Central M4 Express rev B/Adafruit Grand Central M4 Express rev B-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "MIC5350-SGYMT-TR")(type "KiCad")(uri "${KIPRJMOD}/MIC5350-SGYMT-TR/MIC5350-SGYMT-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "PI3B3251QE")(type "KiCad")(uri "${KIPRJMOD}/PI3B3251QE/KiCad/PI3B3251QE.kicad_sym")(options "")(descr ""))
 )

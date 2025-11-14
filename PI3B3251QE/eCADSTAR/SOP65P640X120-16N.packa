@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PI3B3251QE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-05-07:06:13)
+    (mountForm default
+        (footprintRef "SOP65P640X120-16N")
+        (spec "System")
+    )
+)

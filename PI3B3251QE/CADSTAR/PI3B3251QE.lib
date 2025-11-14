@@ -1,0 +1,16 @@
+.PI3B3251QE :1 ;Encoders, Decoders, Multiplexers & Demultiplexers 3.3V 8:1 Demux Mux Bus Switch
+SOP65P640X120-16N
+*STM IC
+*NGS
+*PLB 1="I3" 2="I2" 3="I1" 4="I0" 5="Y" 6="NC" 7="'E'" 8="GND" 9="S2" 10="S1" 11="S0" 12="I7" 13="I6" 14="I5" 15="I4" 16="VCC"
+*MXP 16
+*DFN PI3B3251QE
+~!Mouser Part Number (729-PI3B3251QE)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=729-PI3B3251QE)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (PI3B3251QE)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/PI3B3251QE.pdf)
+~!Height (1.2mm)
+~!3D_Model (PI3B3251QE)
+PI3B3251QE
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 16.1!U 15.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 
