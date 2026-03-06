@@ -36,7 +36,7 @@
 		(uuid "a6791b24-dcf1-49f2-9f31-5edc466142c2")
 	)
 	(sheet
-		(at 44.45 34.29)
+		(at 43.18 34.29)
 		(size 34.29 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51,8 +51,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "539aec53-5447-4510-8feb-4ff7e50b33e1")
-		(property "Sheetname" "Peripherals"
-			(at 44.45 33.5784 0)
+		(property "Sheetname" "Main components"
+			(at 43.18 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 44.45 47.5746 0)
+			(at 43.18 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,8 +78,8 @@
 		)
 	)
 	(sheet
-		(at 127 34.29)
-		(size 30.48 13.97)
+		(at 128.27 34.29)
+		(size 31.75 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -92,9 +92,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "ca4e0780-1d0b-4d38-b526-cbf20791aa72")
-		(property "Sheetname" "Photodiodes"
-			(at 127 33.5784 0)
+		(uuid "61356805-0e62-4432-93e2-9465307ac3b7")
+		(property "Sheetname" "Header Banks"
+			(at 128.27 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,8 +102,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Photodiodes.kicad_sch"
-			(at 127 48.8446 0)
+		(property "Sheetfile" "header_banks.kicad_sch"
+			(at 128.27 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

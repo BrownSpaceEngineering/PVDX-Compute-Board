@@ -707,15 +707,15 @@
     ],
     [
       "539aec53-5447-4510-8feb-4ff7e50b33e1",
-      "Peripherals"
+      "Main components"
     ],
     [
       "ea0f2518-2951-420b-9275-c672d5183aa9",
       "SAMD51 Assignments"
     ],
     [
-      "ca4e0780-1d0b-4d38-b526-cbf20791aa72",
-      "Photodiodes"
+      "61356805-0e62-4432-93e2-9465307ac3b7",
+      "Header Banks"
     ]
   ],
   "text_variables": {}
