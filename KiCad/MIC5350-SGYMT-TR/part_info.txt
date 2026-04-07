@@ -1,9 +1,0 @@
-Manufacturer=Microchip
-PartNumber=MIC5350-SGYMT-TR
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline No-lead
-PinCount=9
-Version=1.1
-Released=2021-09-30 15:08:19
-Downloaded=2025-05-05 07:20:40
-3D=Y

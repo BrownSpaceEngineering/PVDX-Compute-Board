@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "RM3100") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Compute-Board/Components/RM3100/RM3100.pretty") (options "") (descr ""))
+	(lib (name "Gyroscope") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Compute-Board/Components/Gyroscope/Gyroscope.pretty") (options "") (descr ""))
+	(lib (name "JLink") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Compute-Board/Components/J Link/JLink.pretty") (options "") (descr ""))
+	(lib (name "MRAM") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Compute-Board/Components/MRAM/MRAM.pretty") (options "") (descr ""))
+	(lib (name "MPC1603") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Compute-Board/Components/Buck converters/MPC1603.pretty") (options "") (descr ""))
+	(lib (name "Ribbon cables") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Compute-Board/Components/Ribbon Cables/Ribbon cables.pretty") (options "") (descr ""))
+	(lib (name "SAMD51") (type "KiCad") (uri "/home/mcapoor/Documents/Github/BSE/PVDX-Compute-Board/Components/SAMD51/SAMD51.pretty") (options "") (descr ""))
+)
