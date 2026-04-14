@@ -5372,6 +5372,18 @@
 		)
 		(uuid "747928c8-4035-4152-84b1-e69276e69901")
 	)
+	(text "MAGNETORQUERS"
+		(exclude_from_sim no)
+		(at 178.054 86.36 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "748d8ec1-d036-4fdd-821a-6c3ad27622a0")
+	)
 	(text "PA12"
 		(exclude_from_sim no)
 		(at 19.05 61.214 0)
@@ -6072,7 +6084,7 @@
 		)
 		(uuid "e5066fe2-09d8-4b3a-9435-b3b8e0ae6bdd")
 	)
-	(text "TODO: check S band logic levels\nno cs?"
+	(text "TODO: check S band logic levels"
 		(exclude_from_sim no)
 		(at 220.472 128.27 0)
 		(effects
@@ -6342,6 +6354,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffc88d8e-5b48-45ed-978c-38ff17dc448c")
+	)
+	(wire
+		(pts
+			(xy 245.11 162.56) (xy 256.54 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018c17a3-3f39-4d7f-82ee-47a384cd6284")
 	)
 	(wire
 		(pts
@@ -7415,6 +7437,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 58.42) (xy 255.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1970e05-a7f3-43e9-a615-6af77542ba3e")
+	)
+	(wire
+		(pts
 			(xy 59.69 186.69) (xy 58.42 186.69)
 		)
 		(stroke
@@ -8010,6 +8042,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_X_IN1"
+		(shape input)
+		(at 187.96 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19f2addf-e172-422c-b269-bc6988b88eac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.9842 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ADC0 AIN2"
 		(shape output)
 		(at 107.95 49.53 180)
@@ -8103,6 +8159,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MTQ_Z_IN2"
+		(shape input)
+		(at 187.96 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "216ffd09-6288-4a3e-89dd-8df22f8764d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.9842 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8369,30 +8449,6 @@
 			)
 		)
 	)
-	(global_label "PD21"
-		(shape bidirectional)
-		(at 257.81 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "371d805b-e1a1-4ed0-a2f3-c8f837725fbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.8655 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ADC0 AIN1"
 		(shape output)
 		(at 40.64 38.1 180)
@@ -8414,6 +8470,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MTQ_X_IN2"
+		(shape input)
+		(at 53.34 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "389b6f66-a3d4-407a-b526-46ae2764fb0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.3642 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8677,6 +8757,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_Y_IN2"
+		(shape input)
+		(at 187.96 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48063590-6396-4b6d-82c2-28a131b8e01b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8633 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CAMERA MOSI"
 		(shape input)
 		(at 190.5 146.05 0)
@@ -8721,6 +8825,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MTQ_Y_IN1"
+		(shape input)
+		(at 187.96 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b07923d-3556-4eb1-a394-4f89545e8d1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8633 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8866,30 +8994,6 @@
 			)
 		)
 	)
-	(global_label "PA21"
-		(shape bidirectional)
-		(at 53.34 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "546ecbcd-fe34-4c97-9bfa-746d98a17179")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.1028 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "OLED ~{CS}"
 		(shape input)
 		(at 190.5 57.15 180)
@@ -9010,6 +9114,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_Y_IN2"
+		(shape input)
+		(at 53.34 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e6b7f41-ed10-4512-833d-8e03d8451d6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2433 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LED ORANGE 2"
 		(shape input)
 		(at 40.64 68.58 180)
@@ -9080,9 +9208,9 @@
 			)
 		)
 	)
-	(global_label "PB19"
-		(shape bidirectional)
-		(at 120.65 36.83 0)
+	(global_label "MTQ_X_IN2"
+		(shape input)
+		(at 187.96 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9090,9 +9218,9 @@
 			)
 			(justify left)
 		)
-		(uuid "647d2663-1471-4136-ab03-fc1b71c8681d")
+		(uuid "6503bb11-15b2-4bec-94e6-571be2e9a1ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.5942 36.83 0)
+			(at 200.9842 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9140,30 +9268,6 @@
 		(uuid "668ec0fb-2dc7-4506-89b3-784ef48f2118")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.5562 149.098 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PD20"
-		(shape bidirectional)
-		(at 257.81 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "67ac0e6b-53e0-43ac-9178-2432474fedad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.8655 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,6 +10229,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_X_IN1"
+		(shape input)
+		(at 53.34 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3294a87-4811-4826-8300-3e009f336b09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.3642 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ADC1 AIN11"
 		(shape input)
 		(at 59.69 137.16 0)
@@ -10196,6 +10324,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_Y_IN1"
+		(shape input)
+		(at 53.34 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a82e7676-640c-4398-9b91-07fe1d9a6689")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2433 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ADC0 AIN9"
 		(shape input)
 		(at 59.69 184.15 0)
@@ -10256,6 +10408,54 @@
 		(uuid "a9f79e00-1362-4637-8eac-2fe49fd513d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.2919 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SBAND ~{CS}"
+		(shape input)
+		(at 120.65 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aaeaa64d-926d-47cf-9207-071314977083")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.2509 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MTQ_Z_IN1"
+		(shape input)
+		(at 257.81 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acb7ccf9-68f8-462d-948e-e1d0d1a22760")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8342 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10791,6 +10991,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_Z_IN2"
+		(shape input)
+		(at 257.81 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cebd5dbc-2859-460b-9de5-25cfff8bf622")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.8342 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LED ORANGE 1"
 		(shape input)
 		(at 190.5 67.31 180)
@@ -10934,6 +11158,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_Z_IN1"
+		(shape input)
+		(at 187.96 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db8626e3-050f-4f53-82a7-46e45fa0385d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.9842 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MRAM 1 ~{CS}"
 		(shape input)
 		(at 190.5 39.37 180)
@@ -10955,30 +11203,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "PA23"
-		(shape bidirectional)
-		(at 53.34 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e15a6ec3-e571-4407-8875-a5bf5f61e9cd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.1028 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -11266,9 +11490,9 @@
 			)
 		)
 	)
-	(global_label "PA22"
-		(shape bidirectional)
-		(at 53.34 45.72 0)
+	(global_label "SBAND ~{CS}"
+		(shape input)
+		(at 256.54 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11276,33 +11500,9 @@
 			)
 			(justify left)
 		)
-		(uuid "f1e206a2-d6b2-4ecf-b77f-3396db62abea")
+		(uuid "f65591e9-0b7d-425b-8f3b-0a6428bf3fef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.1028 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PA20"
-		(shape bidirectional)
-		(at 53.34 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f439b396-8eb6-4646-a954-b5faee3bbf88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.1028 40.64 0)
+			(at 269.1409 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12336,97 +12536,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 240.03 154.94 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "25f0882e-4253-4652-b2b1-641c794c07eb")
-		(property "Reference" "J15"
-			(at 237.49 153.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 237.49 156.2099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 240.03 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 240.03 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "1bc5703d-7f16-4a12-afee-54b68bbb7a6f")
-		)
-		(pin "3"
-			(uuid "5e168800-9898-4e25-99c8-76cfd946300a")
-		)
-		(pin "1"
-			(uuid "a84147fc-87ff-4c66-9665-70598f418ca3")
-		)
-		(pin "2"
-			(uuid "edd89cb2-2b3c-4115-8c47-a4e0e5c0d90f")
-		)
-		(pin "4"
-			(uuid "a22c24c2-f630-4204-b344-770cbde41046")
-		)
-		(instances
-			(project "SAMD51 dev board"
-				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f/61356805-0e62-4432-93e2-9465307ac3b7"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 138.43 180)
 		(unit 1)
@@ -13202,6 +13311,99 @@
 			(project "SAMD51 dev board"
 				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f/61356805-0e62-4432-93e2-9465307ac3b7"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 240.03 154.94 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a36ed80-ff64-4f6f-9f1f-bb515b70948d")
+		(property "Reference" "J15"
+			(at 240.03 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 240.03 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 240.03 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "744c7722-fb46-4e9d-8ed8-2271bb92899a")
+		)
+		(pin "1"
+			(uuid "3e3ed483-a0e5-4265-86e9-1f7c34a065ff")
+		)
+		(pin "5"
+			(uuid "8a983a91-a799-43db-8226-c421e6688b38")
+		)
+		(pin "2"
+			(uuid "2e70358e-7453-4641-8ee3-c9ffa7046f2f")
+		)
+		(pin "3"
+			(uuid "04696b1f-56f7-4aa8-9543-77841a60e70f")
+		)
+		(pin "6"
+			(uuid "c1049ff5-7581-48f9-b149-f7c02c7a4120")
+		)
+		(instances
+			(project "SAMD51 dev board"
+				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f/61356805-0e62-4432-93e2-9465307ac3b7"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -14771,7 +14973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 58.42 0)
+		(at 256.54 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14782,7 +14984,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4c6df34-d4be-4128-9255-04e79d13c0bb")
 		(property "Reference" "#PWR048"
-			(at 255.27 64.77 0)
+			(at 256.54 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14793,7 +14995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 63.5 0)
+			(at 256.54 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14803,7 +15005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 58.42 0)
+			(at 256.54 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14814,7 +15016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 58.42 0)
+			(at 256.54 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14825,7 +15027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 58.42 0)
+			(at 256.54 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15094,6 +15296,99 @@
 			(project "SAMD51 dev board"
 				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f/61356805-0e62-4432-93e2-9465307ac3b7"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 182.88 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dee3a872-f709-4554-bca7-a0cf6954dfac")
+		(property "Reference" "J19"
+			(at 182.88 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 182.88 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "45cb27a9-7abe-4284-af97-fb2014b6f526")
+		)
+		(pin "2"
+			(uuid "f71d3799-28df-4652-b375-82b10ac4d219")
+		)
+		(pin "4"
+			(uuid "940988e3-3394-4d51-bd7d-6f82ce3cebe2")
+		)
+		(pin "1"
+			(uuid "0892458c-2dd4-4d48-ae9e-c83e9270737d")
+		)
+		(pin "3"
+			(uuid "629b9573-f049-443b-9f7e-946d6564fcb3")
+		)
+		(pin "6"
+			(uuid "3c884aa7-ffd7-4228-bdeb-646381c60593")
+		)
+		(instances
+			(project "SAMD51 dev board"
+				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f/61356805-0e62-4432-93e2-9465307ac3b7"
+					(reference "J19")
 					(unit 1)
 				)
 			)
