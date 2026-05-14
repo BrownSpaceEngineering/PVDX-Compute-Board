@@ -3283,6 +3283,16 @@
 		)
 		(uuid "569a23a1-8d52-4112-b4a6-768788c262f1")
 	)
+	(text "1.85V\n"
+		(exclude_from_sim no)
+		(at 96.774 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "669dde08-4838-4f91-9608-35b32f53b56a")
+	)
 	(text "J LINK / SWD"
 		(exclude_from_sim no)
 		(at 149.86 171.958 0)
@@ -3292,6 +3302,16 @@
 			)
 		)
 		(uuid "7c304245-1bc1-475b-a10e-7144bda3dff2")
+	)
+	(text "1.9V\n"
+		(exclude_from_sim no)
+		(at 64.262 174.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98ba59dc-1caf-45cc-8ec2-68bb8b5115d0")
 	)
 	(text "PVDX COMPUTE BOARD\n"
 		(exclude_from_sim no)
@@ -3303,6 +3323,16 @@
 		)
 		(uuid "c2cff82b-8d70-4431-a39f-ec5d9e141987")
 	)
+	(text "1.85V\n"
+		(exclude_from_sim no)
+		(at 95.758 195.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca2fd004-a4f7-41b2-abea-a7bdfe37a955")
+	)
 	(text "Milan Capoor"
 		(exclude_from_sim no)
 		(at 276.352 189.992 0)
@@ -3312,6 +3342,16 @@
 			)
 		)
 		(uuid "e069cb3e-a755-4c7c-a0b0-dc20afb7bc00")
+	)
+	(text "2V\n"
+		(exclude_from_sim no)
+		(at 52.832 194.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f231d4e4-39cf-46a8-bff6-7f622f6402f2")
 	)
 	(junction
 		(at 276.86 74.93)
@@ -5426,7 +5466,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "330"
 			(at 89.916 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6167,7 +6207,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "330"
 			(at 57.15 179.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,7 +7022,7 @@
 			)
 		)
 		(property "Value" "ORANGE"
-			(at 100.076 194.818 0)
+			(at 108.966 196.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8153,7 +8193,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "330"
 			(at 90.17 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9178,7 +9218,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "330"
 			(at 53.594 189.23 90)
 			(show_name no)
 			(do_not_autoplace no)
