@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.4732,
-          "width": 0.2286
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -279,7 +279,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|2298700|1092200|d6193617-bdd8-44b8-bfb4-8f93a9417961|00000000-0000-0000-0000-000000000000|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -689,6 +694,36 @@
           "label": "Manufacturer_Name",
           "name": "Manufacturer_Name",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -755,7 +790,7 @@
         "uuid": "cc5055d2-349f-4e91-a151-9a2f788b119f"
       }
     ],
-    "used_designators": "U1-11,R1-24,L1-4,IC1-2,H1-4,D1-5,C1-19,#PWR1-53,#G1,COUT1-2,CIN1-5,#FLG1-4,J1-9,J16",
+    "used_designators": "U1-12,R1-35,L1-4,IC1-2,H1-4,D1-5,C1-19,#PWR1-64,#G1,COUT1-2,CIN1-5,#FLG1-4,J1-13,J16",
     "variants": []
   },
   "sheets": [

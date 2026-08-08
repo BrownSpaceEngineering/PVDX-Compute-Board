@@ -464,18 +464,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: populate BOM with manufacturers' part numbers. \nCurrent assignments assume 0402 SMD resistors and caps;\nconfirm this is reasonable/desirable and consider sizing up"
-		(exclude_from_sim no)
-		(at 41.148 72.898 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "05886825-937a-4d1b-8438-f4dbd3fceed1")
-	)
 	(text "REMARK: we have chosen to handle active low pins in software. \nports are marked as such but do not have pull ups (except i2c lines)"
 		(exclude_from_sim no)
 		(at 44.958 61.976 0)
