@@ -458,6 +458,24 @@
 					)
 				)
 				(pin power_in line
+					(at 15.24 -36.83 180)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -11.43 -17.78 0)
 					(length 2.54)
 					(hide yes)
@@ -2916,6 +2934,24 @@
 						)
 					)
 					(number "107"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -36.83 180)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5390,6 +5426,24 @@
 					)
 				)
 				(pin power_in line
+					(at 15.24 -36.83 180)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -11.43 -17.78 0)
 					(length 2.54)
 					(hide yes)
@@ -7848,6 +7902,24 @@
 						)
 					)
 					(number "107"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -36.83 180)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10647,6 +10719,24 @@
 						)
 					)
 					(number "107"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -36.83 180)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16766,6 +16856,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 256.54 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05841006-a66a-47e9-b7c4-105359ff1e26")
+		(property "Reference" "#PWR065"
+			(at 262.89 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "defe98e5-956d-49f1-a591-763e961914d2")
+		)
+		(instances
+			(project "PVDX Compute Board"
+				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 173.99 124.46 0)
 		(unit 1)
@@ -17538,6 +17707,9 @@
 		)
 		(pin "117"
 			(uuid "3aaf7c78-e2b8-4117-921d-456ba7fa90a0")
+		)
+		(pin "116"
+			(uuid "9c2cd24f-061d-4979-b2ae-43713a518040")
 		)
 		(instances
 			(project "PVDX Compute Board"
@@ -18348,6 +18520,9 @@
 		(pin "117"
 			(uuid "5c809f1a-a060-4bbb-8152-a718fe035619")
 		)
+		(pin "116"
+			(uuid "d192bd53-423d-4882-9ff0-882b237a9db6")
+		)
 		(instances
 			(project "PVDX Compute Board"
 				(path "/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9"
@@ -18824,6 +18999,9 @@
 		)
 		(pin "117"
 			(uuid "d2d3df4c-3642-4b38-b0be-601bd0d1d203")
+		)
+		(pin "116"
+			(uuid "2b414010-e1a4-4f35-97f7-642d8b69bb60")
 		)
 		(instances
 			(project "PVDX Compute Board"
@@ -19379,6 +19557,9 @@
 		)
 		(pin "117"
 			(uuid "9b273018-9d4e-4fe8-9673-402987f9bbad")
+		)
+		(pin "116"
+			(uuid "1bbe95c4-d100-4ce6-ae79-23eef4747bba")
 		)
 		(instances
 			(project "PVDX Compute Board"
@@ -19970,6 +20151,9 @@
 		)
 		(pin "117"
 			(uuid "754ebbc2-761f-4716-9bba-0b75c245e8c7")
+		)
+		(pin "116"
+			(uuid "f25cf8d8-dda3-41f4-b12c-ede699ba93d8")
 		)
 		(instances
 			(project "PVDX Compute Board"

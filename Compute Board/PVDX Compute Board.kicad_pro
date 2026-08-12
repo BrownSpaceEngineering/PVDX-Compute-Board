@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,7 +63,7 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -170,7 +170,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -280,6 +280,14 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "multiple_net_names|2298700|1155700|1fe24d00-3faf-4a00-9e26-0936082ce388|86d94184-23c3-462a-8251-204209d19c23|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9",
+        ""
+      ],
+      [
+        "multiple_net_names|2298700|1409700|b9258143-c44c-4d51-b31e-7d33654aae89|deaed0c3-f8cc-4b20-a62e-0dbbe15f2758|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9",
+        ""
+      ],
       [
         "power_pin_not_driven|2298700|1092200|d6193617-bdd8-44b8-bfb4-8f93a9417961|00000000-0000-0000-0000-000000000000|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|/cc5055d2-349f-4e91-a151-9a2f788b119f/ea0f2518-2951-420b-9275-c672d5183aa9|",
         ""
@@ -790,7 +798,7 @@
         "uuid": "cc5055d2-349f-4e91-a151-9a2f788b119f"
       }
     ],
-    "used_designators": "U1-12,R1-35,L1-4,IC1-2,H1-4,D1-5,C1-19,#PWR1-64,#G1,COUT1-2,CIN1-5,#FLG1-4,J1-13,J16",
+    "used_designators": "U1-12,R1-35,L1-4,IC1-2,H1-4,D1-5,C1-19,#PWR1-65,#G1,COUT1-2,CIN1-5,#FLG1-4,J1-13,J16",
     "variants": []
   },
   "sheets": [
