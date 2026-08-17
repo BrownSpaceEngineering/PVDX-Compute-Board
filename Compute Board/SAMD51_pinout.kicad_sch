@@ -13013,17 +13013,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "(UNALLOCATED)"
-		(exclude_from_sim no)
-		(at 105.156 175.768 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 72 0 72 1)
-			)
-		)
-		(uuid "03cacef6-f688-4528-99f1-f7d5477b5620")
-	)
 	(text "THERM 1"
 		(exclude_from_sim no)
 		(at 61.214 99.568 0)
@@ -13043,17 +13032,6 @@
 			)
 		)
 		(uuid "0c1c9ee1-d9e6-41f3-8347-c49a01617d49")
-	)
-	(text "(UNALLOCATED)"
-		(exclude_from_sim no)
-		(at 106.68 124.714 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 72 0 72 1)
-			)
-		)
-		(uuid "1395afc4-5d15-4099-adcf-804030ed2848")
 	)
 	(text "see https://github.com/BrownSpaceEngineering/PVDX-SAMD-PinConfig"
 		(exclude_from_sim no)
@@ -13147,17 +13125,6 @@
 		)
 		(uuid "40e0522f-2e03-41ec-9a07-d978e46da8ba")
 	)
-	(text "(UNALLOCATED)"
-		(exclude_from_sim no)
-		(at 106.68 122.174 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 72 0 72 1)
-			)
-		)
-		(uuid "4201e6f4-368d-493b-98cb-f5fff5213706")
-	)
 	(text "PHD 1"
 		(exclude_from_sim no)
 		(at 69.088 39.624 0)
@@ -13198,17 +13165,6 @@
 			)
 		)
 		(uuid "46e94d84-742d-451b-94e3-61de16051b95")
-	)
-	(text "(UNALLOCATED)"
-		(exclude_from_sim no)
-		(at 106.68 127.254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 72 0 72 1)
-			)
-		)
-		(uuid "541ca3fb-a6c2-46a7-ab03-0ed89b0d8d4b")
 	)
 	(text "(ADC1 AIN15 - UNUSED)"
 		(exclude_from_sim no)
@@ -13314,6 +13270,16 @@
 		)
 		(uuid "7e26838e-3bd9-415e-b194-50d7e01cdd0f")
 	)
+	(text "PHD 0"
+		(exclude_from_sim no)
+		(at 59.182 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f1f4d09-d580-4b5e-976e-1b1e8b06a398")
+	)
 	(text "PHD 13"
 		(exclude_from_sim no)
 		(at 68.58 89.154 0)
@@ -13323,17 +13289,6 @@
 			)
 		)
 		(uuid "7ffcc525-dc6a-4960-81a2-edd52eef158b")
-	)
-	(text "(ADC1 AIN10 - UNUSED)"
-		(exclude_from_sim no)
-		(at 67.818 142.494 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 72 0 72 1)
-			)
-		)
-		(uuid "84442d3b-6fa5-46eb-9a5c-5a7468d1e218")
 	)
 	(text "(ADC1 AIN11 - UNUSED)"
 		(exclude_from_sim no)
@@ -13411,9 +13366,9 @@
 		)
 		(uuid "e9ba6cc0-8b56-4dda-b116-d20a274f750c")
 	)
-	(text "PHD 0"
+	(text "PEROVSKITE CTRL"
 		(exclude_from_sim no)
-		(at 69.088 37.084 0)
+		(at 74.422 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13559,16 +13514,8 @@
 		(uuid "f572e1a6-347c-40ec-9f00-6ab265f11365")
 	)
 	(no_connect
-		(at 45.72 142.24)
-		(uuid "0768d479-2780-4ffe-9392-e84a787402ec")
-	)
-	(no_connect
 		(at 176.53 34.29)
 		(uuid "0912cd95-8504-4ee1-b179-45f27011c0e7")
-	)
-	(no_connect
-		(at 121.92 175.26)
-		(uuid "11b81f4f-486d-4df9-b6e9-a93b57f6e201")
 	)
 	(no_connect
 		(at 121.92 177.8)
@@ -13579,16 +13526,8 @@
 		(uuid "2dc2baf1-b27b-44c9-8036-2a3a9ffbf2dc")
 	)
 	(no_connect
-		(at 123.19 127)
-		(uuid "33d3bfe6-fb54-4fdc-9227-904d3d8c9b9f")
-	)
-	(no_connect
 		(at 124.46 52.07)
 		(uuid "3a5243ce-9d57-48e7-a414-ca471cd8da38")
-	)
-	(no_connect
-		(at 124.46 59.69)
-		(uuid "5c31bd0e-7f18-4bf5-8130-cdb30998f4e2")
 	)
 	(no_connect
 		(at 121.92 180.34)
@@ -13603,20 +13542,12 @@
 		(uuid "846e1ed6-5991-455d-b1de-4184d85a6c1e")
 	)
 	(no_connect
-		(at 123.19 121.92)
-		(uuid "9e22e711-9e09-4c27-bb18-0d3e527ea3ee")
-	)
-	(no_connect
 		(at 121.92 182.88)
 		(uuid "9f11a915-e26e-4995-a5a4-29331527702e")
 	)
 	(no_connect
 		(at 45.72 144.78)
 		(uuid "d7f98fc3-548a-4d14-ac95-db8465dc5e28")
-	)
-	(no_connect
-		(at 123.19 124.46)
-		(uuid "e1b338c3-1d0c-4807-9ab9-1cac54a0cf93")
 	)
 	(wire
 		(pts
@@ -13747,6 +13678,26 @@
 			(type default)
 		)
 		(uuid "2157e345-1498-47c0-b6cd-2d943378c475")
+	)
+	(wire
+		(pts
+			(xy 40.64 142.24) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2386f5da-a8cc-4f25-8dfd-d3d1cadd3c6e")
+	)
+	(wire
+		(pts
+			(xy 123.19 121.92) (xy 128.27 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b3594e-7179-4abe-8216-00ec157a7d6f")
 	)
 	(wire
 		(pts
@@ -14170,6 +14121,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 127) (xy 128.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5bd265-ba31-4459-9a23-f53967aec047")
+	)
+	(wire
+		(pts
 			(xy 173.99 109.22) (xy 181.61 109.22)
 		)
 		(stroke
@@ -14360,6 +14321,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b462ca7-1b21-4d4d-b8b7-84aae8afca48")
+	)
+	(wire
+		(pts
 			(xy 128.27 109.22) (xy 123.19 109.22)
 		)
 		(stroke
@@ -14377,6 +14348,16 @@
 			(type default)
 		)
 		(uuid "9ed5351b-a73a-4f18-b0f9-8891a67399c3")
+	)
+	(wire
+		(pts
+			(xy 121.92 175.26) (xy 127 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2296a2a-36e3-4fe8-a414-dde175103724")
 	)
 	(wire
 		(pts
@@ -14710,6 +14691,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 124.46) (xy 128.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36af075-42f0-488b-a769-90d9a4ab441a")
+	)
+	(wire
+		(pts
 			(xy 39.37 177.8) (xy 45.72 177.8)
 		)
 		(stroke
@@ -14988,6 +14979,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "EPS SDA"
+		(shape bidirectional)
+		(at 157.48 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "131c4ded-8973-4400-9c99-c1fa299c4c85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.6294 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "MTQ_X_SLP"
+		(shape output)
+		(at 128.27 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1937de88-c0b5-4d40-9957-0188d871fe4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.657 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -15359,6 +15398,30 @@
 		(uuid "40b74da1-8876-483f-b525-f62c7bc0992a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 28.9462 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "PVD DAC"
+		(shape input)
+		(at 43.18 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4215af14-dbc2-4d2c-b555-62c22b59a4b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.97 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15934,6 +15997,30 @@
 			)
 		)
 	)
+	(global_label "MTQ_Y_SLP"
+		(shape output)
+		(at 128.27 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8784c1da-b8ef-47b0-bd8b-4ef7d471870a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.5361 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EPS A1"
 		(shape output)
 		(at 128.27 104.14 0)
@@ -15947,6 +16034,29 @@
 		(uuid "88ad9c8e-e4c3-4fcf-897a-27e47a088fb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 138.1494 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "BURN CTRL"
+		(shape output)
+		(at 128.27 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88d35cc1-f64a-4ce2-86b3-98b972f2cdae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.3262 119.888 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16194,30 +16304,6 @@
 			)
 		)
 	)
-	(global_label "ADC0 AIN0"
-		(shape input)
-		(at 43.18 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aae7d9c1-1f9d-47e4-b321-c7562cff7a58")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1557 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ADC0 AIN14"
 		(shape input)
 		(at 41.91 91.44 180)
@@ -16313,7 +16399,7 @@
 			)
 		)
 	)
-	(global_label "CAMERA SCL"
+	(global_label "CAMERA{slash}PVD SCL"
 		(shape bidirectional)
 		(at 171.45 59.69 180)
 		(effects
@@ -16572,7 +16658,31 @@
 			)
 		)
 	)
-	(global_label "CAMERA SDA"
+	(global_label "UHF IRQ"
+		(shape input)
+		(at 129.54 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdd4e86e-a0e2-4834-8d82-9f6736fa4f52")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.4477 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CAMERA{slash}PVD SDA"
 		(shape bidirectional)
 		(at 171.45 62.23 180)
 		(effects
@@ -16690,6 +16800,30 @@
 			)
 		)
 	)
+	(global_label "EPS SCL"
+		(shape bidirectional)
+		(at 157.48 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e61f636f-a2fa-47ea-8319-8feac52cca50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.5689 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MTQ_X_IN1"
 		(shape output)
 		(at 129.54 41.91 0)
@@ -16710,6 +16844,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ADC0 AIN0"
+		(shape input)
+		(at 40.64 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6e8cbf0-dcc4-4d3f-bd2c-0b64d6dc96f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.6157 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -16852,6 +17010,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "MTQ_Z_SLP"
+		(shape output)
+		(at 127 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcd9e682-79d7-48f2-bb49-c7a82628e8ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.387 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
