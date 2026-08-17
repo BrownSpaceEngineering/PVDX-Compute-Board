@@ -13386,17 +13386,6 @@
 		)
 		(uuid "fb34b322-8cb0-47df-bf2f-dacba1bcab75")
 	)
-	(text "(OLED MISO - SIGNAL DNE)"
-		(exclude_from_sim no)
-		(at 101.6 37.084 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "fb57089c-cd35-4f36-a8ec-01ddd46f58b3")
-	)
 	(text "THERM 3"
 		(exclude_from_sim no)
 		(at 61.214 104.648 0)
@@ -14982,19 +14971,18 @@
 			)
 		)
 	)
-	(global_label "EPS SDA"
+	(global_label "CAMERA{slash}PVD{slash}EPS SDA"
 		(shape bidirectional)
-		(at 157.48 43.18 0)
-		(fields_autoplaced yes)
+		(at 171.45 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "131c4ded-8973-4400-9c99-c1fa299c4c85")
+		(uuid "16e2a8bf-6864-4048-b02d-16263edb80fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.6294 43.18 0)
+			(at 156.3938 60.198 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15002,7 +14990,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -15090,6 +15078,29 @@
 		(uuid "1f0e0668-b416-4865-aaa6-99990e687954")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 28.1238 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CAMERA{slash}PVD{slash}EPS SCL"
+		(shape bidirectional)
+		(at 171.45 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2256a830-0c45-419c-bf71-7de37ba8e1f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.3938 57.658 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16399,29 +16410,6 @@
 			)
 		)
 	)
-	(global_label "CAMERA{slash}PVD SCL"
-		(shape bidirectional)
-		(at 171.45 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b589475a-4c7d-411f-b366-c504902d784a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3938 57.658 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "ADC1 AIN9"
 		(shape input)
 		(at 40.64 104.14 180)
@@ -16682,29 +16670,6 @@
 			)
 		)
 	)
-	(global_label "CAMERA{slash}PVD SDA"
-		(shape bidirectional)
-		(at 171.45 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d683e691-5c36-4e9f-b884-d4cf325c745c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3938 60.198 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MTQ_Y_IN2"
 		(shape output)
 		(at 129.54 49.53 0)
@@ -16789,30 +16754,6 @@
 		(uuid "e5edab65-e147-4190-a248-630245211d4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.359 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "EPS SCL"
-		(shape bidirectional)
-		(at 157.48 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e61f636f-a2fa-47ea-8319-8feac52cca50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.5689 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
