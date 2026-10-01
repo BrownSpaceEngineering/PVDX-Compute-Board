@@ -28,3 +28,12 @@ Thumbs.db
 .vscode/
 .history/
 .history_trim/
+
+# Crash recovery and autosave leftovers
+.history
+*.recovered.*
+*-rescue.*
+\#auto_saved_files\#
+
+# Linux file-manager junk
+.directory
